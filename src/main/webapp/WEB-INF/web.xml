@@ -2,12 +2,6 @@
 <web-app version="6.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
   <display-name>EBCalculator</display-name>
   <welcome-file-list>
-  <welcome-file>calculator.html</welcome-file>
-    <welcome-file>calculator.jsp</welcome-file>
-    <welcome-file>calculator.htm</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
-    <welcome-file>default.htm</welcome-file>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>index.htm</welcome-file>
@@ -15,16 +9,6 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
-  <servlet>
-    <description></description>
-    <display-name>EBCal</display-name>
-    <servlet-name>EBCal</servlet-name>
-    <servlet-class>ebFile.EBCal</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>EBCal</servlet-name>
-    <url-pattern>/EBCal</url-pattern>
-  </servlet-mapping>
   <servlet>
     <description></description>
     <display-name>CalAmt</display-name>
