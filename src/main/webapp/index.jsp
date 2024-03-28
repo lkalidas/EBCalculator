@@ -67,13 +67,6 @@ text-shadow: 0 0 0 lightblue;
 transition-duration: 0.1ms;
 }
 </style>
-<script>
-    // Assuming you're setting the total amount in a JavaScript variable named totalAmt
-    var totalAmt = "<%= request.getAttribute('totalamt') %>";
-
-    // Set the value of the input field with JavaScript
-    document.getElementById("total").value = totalAmt;
-</script
 </head>
 <body>
 
@@ -89,7 +82,7 @@ transition-duration: 0.1ms;
 </div>
 <br>
 <label for="totalamt" class="inf">Total Bill Amount:</label>
-<input class="input" disabled type="number" id="total" ><label class="cl"> INR</label>
+<input class="input" disabled type="number" id="total" value="<%= request.getAttribute("totalamt") %>" ><label class="cl"> INR</label>
 </form>
 </div>
 </body>
